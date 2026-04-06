@@ -26,11 +26,11 @@ optECG acquires ECG waveforms optically from existing bedside monitors — no el
 
 ## What it will do
 
-- Capture ECG display footage at 3 fps using a fixed-mount camera
+- Capture ECG display footage at good fps using a fixed-mount camera
 - Detect and correct monitor tilt using YOLO OBB (Oriented Bounding Box)
 - Calibrate pixel amplitudes to real millivolt values using the monitor's own 1 mV reference pulse
 - Extract a 1-D digital signal via column scanning across the waveform region
-- Assemble 10-second windows (30 frames) for rhythm analysis
+- Assemble 10-second windows for rhythm analysis
 - Detect tachycardia, bradycardia, ST deviation, arrhythmia, and absent P-wave
 - Produce human-readable reason strings for every alert — fully explainable, no black box
 - Run two independent safety watchdogs (gyroscope + YOLO re-check) on separate threads
