@@ -12,18 +12,6 @@ optECG acquires ECG waveforms optically from existing bedside monitors — no el
 
 ---
 
-## Development Status
-
-| Phase | Description | Status |
-|-------|-------------|--------|
-| Phase 1 | Image Capture & Orientation | 🔄 In Progress |
-| Phase 2 | Calibration | 🔲 Planned |
-| Phase 3 | Signal Extraction & Vectorisation | 🔲 Planned |
-| Phase 4 | Analysis & Detection | 🔲 Planned |
-| Safety Layer | Watchdog & Audit System | 🔲 Planned |
-
----
-
 ## What it will do
 
 - Capture ECG display footage at good fps using a fixed-mount camera
